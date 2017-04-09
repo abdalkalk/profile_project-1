@@ -1,4 +1,4 @@
-var url="https://api.github.com/users/asmaasaadi/repos?sort=pushed&per_page=5"
+var url="http://api.github.com/users/asmaasaadi/repos?sort=pushed&per_page=5"
 
 
 $(document).ready(function(){
