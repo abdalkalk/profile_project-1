@@ -2,7 +2,11 @@ var url="http://api.github.com/users/asmaasaadi/repos?sort=pushed&per_page=5"
 
 
 $(document).ready(function(){
-	
+
+	$(`#favouriteclick`).click(function(){
+		$(`#favourite`).show();
+	})
+
 	$("#a").click(function(){
 		$(`#proj`).html('')
 		$.get(url, function(data){
